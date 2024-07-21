@@ -8,8 +8,24 @@ import com.zebra.sdk.printer.ZebraPrinter;
 import com.zebra.sdk.printer.ZebraPrinterFactory;
 import com.zebra.sdk.printer.ZebraPrinterLanguageUnknownException;
 
+import java.io.File;
+import java.lang.reflect.Field;
+
 public class Main {
     public static void main(String[] args) throws ConnectionException {
+
+        String dllPath = new File("dll").getAbsolutePath();
+        System.setProperty("java.library.path", dllPath);
+
+        // 重新设置库路径以使其生效
+        try {
+            Field fieldSysPath = ClassLoader.class.getDeclaredField("sys_paths");
+            fieldSysPath.setAccessible(true);
+            fieldSysPath.set(null, null);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         // 创建与打印机的连接（此示例使用USB连接）
         Connection printerConnection = new UsbConnection("USB端口号"); // 请根据实际情况填写USB端口号
 

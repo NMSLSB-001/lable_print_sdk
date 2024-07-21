@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ababb7d9-dc26-4dc4-acd1-1e47234b20fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dll/ZebraNativeUsbAdapter_32.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dll/ZebraNativeUsbAdapter_64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dll/zDriverAdapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dll/zDriverAdapter64.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -50,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repo\vtblive\zebra_test\dll" />
       <recent name="D:\Repo\vtblive\zebra_test" />
     </key>
   </component>
@@ -61,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721544096423</updated>
-      <workItem from="1721544097769" duration="1850000" />
+      <workItem from="1721544097769" duration="3475000" />
     </task>
     <servers />
   </component>
