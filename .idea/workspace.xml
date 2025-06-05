@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ababb7d9-dc26-4dc4-acd1-1e47234b20fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/config/label_layout_big.prn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Print.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bcpkix-jdk18on-1.78.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bcprov-jdk18on-1.78.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-codec-1.16.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-io-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-lang3-3.14.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-net-3.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-validator-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/httpcore-4.4.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/httpmime-4.5.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jackson-annotations-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jackson-core-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jackson-databind-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/log4j-core-2.23.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opencsv-2.3.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/config/label_layout_big.prn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/label_layout_big.prn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +140,7 @@
       <workItem from="1722175014731" duration="4973000" />
       <workItem from="1725069006793" duration="10287000" />
       <workItem from="1749118384202" duration="1298000" />
-      <workItem from="1749119732754" duration="700000" />
+      <workItem from="1749119732754" duration="2382000" />
     </task>
     <servers />
   </component>

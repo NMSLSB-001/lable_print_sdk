@@ -1,2 +1,4 @@
-package org.example;public class Print {
+package org.example;
+
+public class Print {
 }
