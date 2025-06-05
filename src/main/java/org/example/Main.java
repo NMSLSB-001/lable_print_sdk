@@ -37,7 +37,7 @@ public class Main {
         }
 
         Path csvPath = Paths.get("C:\\Users\\cern\\Desktop\\test.csv");
-        Path prnPath = Paths.get("src/main/config/label_layout.prn");
+        Path prnPath = Paths.get("src/main/config/label_layout_big.prn");
 
         try {
             // 从CSV文件读取数据
@@ -84,9 +84,7 @@ public class Main {
     public static void printData(List<Map<String, String>> csvData, Path prnPath, Connection printerConnection) throws IOException, ConnectionException {
         for (Map<String, String> dataMap : csvData) {
             String prnData = new String(Files.readAllBytes(prnPath), StandardCharsets.UTF_8);
-            // 替换抬头
-            prnData = prnData.replace("?????_device_type", "设备类型");
-            prnData = prnData.replace("?????_device_name", "设备名称");
+
             // 替换占位符
             for (Map.Entry<String, String> entry : dataMap.entrySet()) {
                 prnData = prnData.replace("{{" + entry.getKey() + "}}", entry.getValue());
